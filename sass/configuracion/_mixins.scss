@@ -1,0 +1,39 @@
+@mixin input{
+    background-color: $text-color;
+    border: 1px solid $text-border;
+    color: $font;
+    padding: 10px 80px 13px 10px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: -1;
+
+/*funcionamiento del cuadrito de texto*/
+    &:hover{
+    background-color: $text-hover;
+    } 
+    
+    &:focus{
+    outline: none;
+    }
+
+}
+
+@mixin button{
+    background-color: $button;
+    border: none;
+    color: black;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 10px 21px;
+    margin-bottom: 23px;
+
+
+/*funcionamiento del botoncito*/
+    &:hover{
+    background-color: $button-hover;
+    } 
+
+    &:focus{
+    outline: none;
+    }
+}

@@ -1,0 +1,24 @@
+/*pyment*/
+
+
+
+.pyment{
+    margin-top: 20px;
+}
+
+.payment-button{
+    @include button;
+
+    input{
+        border: 8px solid #E3A7C5;
+    }
+}
+
+.visa{
+    width: 20px;
+    padding-right: 5px;
+}
+.paypal{
+    width: 20px;
+    padding-right: 5px;
+}

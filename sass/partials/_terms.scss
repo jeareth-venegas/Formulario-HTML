@@ -1,0 +1,11 @@
+.text{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 19px;
+    font-size: 12px;
+}
+
+.sign-up{
+    @include button;
+    margin-left: 90px;
+}

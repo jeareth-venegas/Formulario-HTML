@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Descripcion del sitio web">
+    <meta name="Keyword" content="formulario">  
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- M A I N  C O N T E N T-->
+
+    <div class="main-content">
+
+        <!--F O R M  C O N T E N T-->
+        <div class="form-content">
+
+                <!-- F O R M -->
+            <div class="form-info">
+
+                <form action="." method="get">
+                    <div class="square-form">
+
+                        <!--ACCOUNT BOX-->
+                        <h1>ACCOUNT</h1>
+                        <!--1 box por cada cuadro de texto-->
+
+                        <div class="box clearfix">
+                            <div class="img1">
+                                <img class="icon" src="img/img-1.png" alt="Name">
+                            </div>
+                            <label for="user"></label>
+                            <input type="text" value="Full Name" name="Full Name" id="name-user" class="account"/>
+                        </div>
+
+                        <div class="box clearfix"> 
+                            <div class="img2">
+                                <img class="icon" src="img/img-2.png" alt="E-mail">
+                            </div>
+                            <label for="e-mail"></label>
+                            <input type="text" value="E-mail" name="E-mail" id="e-mail" class="account">
+                        </div>
+
+                        <div class="box clearfix">
+                            <div class="img3">
+                                <img class="icon" src="img/img-3.png" alt="Password">
+                            </div>
+                            <label for="password"></label>
+                            <input type="text" value="Password" name="password" id="password" class="account">
+                        </div>
+                    </div>
+
+                        <!--DATE OF BIRTH-->
+                        <div class="birth clearfix">
+
+                            <h1>DATE OF BIRTH</h1>
+                            <label for="date1"></label>
+                            <input type="date" value="" name="date1" id="birth" class="date"/>
+
+                        </div>
+
+
+                        <!--GENDER-->
+                        <div class="gender clearfix">
+                            <div class="gen-button">
+                                <input type="radio" value="Male" id="male" name="male">
+                                <label for="male">Male</label>
+                            </div>
+
+                            <div class="gen-button">
+                                <input type="radio" value="Female" id="female" name="female">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+
+                        <!--PYMENT DETAILS-->
+                        <div class="payment clearfix">
+                            <h1>PAYMENT DETAILS</h1>
+                            <!--<input type="submit" value="Credit Card">-->
+
+                            <!--VISA-->
+                            <button class="payment-button">
+                                <img class="visa" src="img/visa2.png" alt="visa">
+                                Credit Card
+                            </button>
+                            <!--PAYPAL-->
+                            <button class="payment-button">
+                                <img class="paypal" src="img/paypal2.png" alt="visa">
+                                Paypal
+                            </button>
+                        </div>
+
+                    <div class="square-form clearfix">
+                        <!--CARD NUMBER-->
+                        <div class="box clearfix">
+                            <div class="img4">
+                                <img class="icon" src="img/img-4.png" alt="card">
+                            </div>
+                            <label for="card number"></label>
+                            <input type="text" value="Card Number" name="card number" id="card-num" class="account"/>
+                        </div>
+                        <!--CARD-->
+                        <div class="box clearfix">
+                            <div class="img5">
+                                <img class="icon" src="img/img-5.png" alt="padlock">
+                            </div>
+                            <input type="text" value="Card" name="card" id="padlock" class="account"/>
+                            <label for="padlock"></label>
+                        </div>
+                        <!--DATE-->
+                        <div class="date clearfix">
+                            <input type="date" value="" name="date2" id="date" class="account"/>
+                            <label for="date2"></label>
+                        </div>
+
+                        <!--Terms and conditions-->
+                        <div class=terms>
+                            <h2>Terms and Conditions</h2>
+
+                            <input type="checkbox" id="conditions" name="Terms and Conditions" value="">
+                            <label for="Terms and Conditions" class="text">Yes I accept the terms and conditions of signing up 
+                                to this service and have read the privacy pilicy regarding 
+                                the storing my information.</label>
+
+                            <input type="submit" value="Sign Up!" class="sign-up">
+                        </div>
+                    </div>
+                    
+                </form>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
